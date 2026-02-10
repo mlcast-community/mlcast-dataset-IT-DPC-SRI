@@ -1,0 +1,9 @@
+[project]
+name = "tiff"
+version = "0.1.0"
+requires-python = "==3.12.*"
+dependencies = [
+    "fire>=0.7.1",
+    "GDAL @ https://github.com/girder/large_image_wheels/raw/wheelhouse/GDAL-3.12.1.1-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=2440bce97729ce434e5fbd6d37cffb53d98ad2c49f51b25b5db55f637045c517",
+    "tqdm>=4.67.3",
+]
