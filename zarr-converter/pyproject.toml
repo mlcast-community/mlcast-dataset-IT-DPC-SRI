@@ -1,0 +1,15 @@
+[project]
+name = "zarr-converter"
+version = "0.1.0"
+requires-python = "==3.12.*"
+dependencies = [
+    "fire>=0.7.1",
+    "GDAL @ https://github.com/girder/large_image_wheels/raw/wheelhouse/GDAL-3.12.1.1-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=2440bce97729ce434e5fbd6d37cffb53d98ad2c49f51b25b5db55f637045c517",
+    "geopandas>=1.0",
+    "loguru>=0.7",
+    "numcodecs>=0.12,<0.16",
+    "rioxarray>=0.17",
+    "tqdm>=4.67",
+    "xarray>=2024.1",
+    "zarr>=2.18,<3",
+]
