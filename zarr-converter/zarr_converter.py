@@ -338,8 +338,8 @@ class ZarrConverter:
             "base_frequencies": base_freq_str,
             "mlcast_created_on": curr_date,
             "mlcast_created_by": "Gabriele Franch <franch@fbk.eu>",
-            "mlcast_created_with": "https://github.com/mlcast-community/mlcast-dataset-IT-DPC-SRI@0.1.0",
-            "mlcast_dataset_version": "0.1.0",
+            "mlcast_created_with": "https://github.com/mlcast-community/mlcast-dataset-IT-DPC-SRI@0.2.0",
+            "mlcast_dataset_version": "0.2.0",
             "mlcast_dataset_identifier": "IT-DPC-SRI",
             "coordinates": "lat lon",
         })
